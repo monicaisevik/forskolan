@@ -1,0 +1,39 @@
+@import './variables.scss';
+
+
+.omforeningen{
+    background-color: $second-color-2;
+    
+    padding: 5% 0 5% 13.5%;
+    padding-top: 3%;
+    display: flex;
+    margin-top: -2%;
+    
+
+    h2{
+        margin-bottom: 10%;
+        margin-top: 2%;
+        
+        font-size: $title-fontSize;
+    }
+
+    &_image{
+        border-radius: 20px;
+        margin-right: 10%;
+        width: auto;
+        height: auto;
+        
+    }
+   
+
+    p{
+        font-weight: 300;
+    }
+
+    p:not(:last-child){
+        margin-bottom: 4%;
+    }
+    
+        
+    
+}

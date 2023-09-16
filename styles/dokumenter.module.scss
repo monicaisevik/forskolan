@@ -1,0 +1,248 @@
+@import './variables.scss';
+
+
+
+.dokumenter{
+    background-color:$primary-backgroundColor;
+    height: 100%;
+    min-width: 980px;
+    position: relative;
+    overflow: hidden;
+    // &_headerRight{
+    //   display: flex;
+    //   align-items: center;
+    // }
+
+    &_text{
+      text-align: center;
+    }
+
+    &_header{
+         width: 100%;
+        //display: flex;
+        //justify-content: center;
+        //align-items: center;
+        padding-top: 4.5rem;
+        padding-left: 75rem;
+        color: $second-color-3;
+        background-color: $second-color-2;
+
+        p:hover{
+             transform: scale(1.05);
+             color: rgb(1, 1, 1);
+        cursor: pointer;
+        }
+         
+    }
+
+  
+
+    &_file{
+        padding: 10%;
+    }
+}
+
+.loggain{
+    background-color: $primary-backgroundColor;
+    display: flex;
+    justify-content: center;
+    padding-top: 8%;
+    min-width: 980px;
+    position: relative;
+
+    &_loading{
+      padding-left: 50%;
+      padding-top: 20%;
+      background-color: $primary-backgroundColor;
+    }
+
+     &_tillbaka{
+         position:absolute;
+        top: 0rem;
+        left: 5rem;
+        color: $second-color-3;
+     }
+
+     &_tillbaka:hover{
+         
+         transform: scale(1.05);
+         
+     }
+
+     &_forsatta{
+      position:absolute;
+      top: 0rem;
+      left: 60rem;
+      color: $second-color-3;
+
+      
+     }
+
+     &_logout{
+      position:absolute;
+      top: 2.5rem;
+      left: 68rem;
+      color: $second-color-3;
+     }
+
+    &_link{
+      position:absolute;
+      top: 2.5rem;
+      left: 80%;
+    text-decoration: none;
+    color: $second-color-3;
+    } 
+
+    &_link:hover{
+        color: rgb(1, 1, 1);
+        cursor: pointer;
+    }
+
+   
+    &_form{
+      h4{
+        text-align: center;
+        margin-bottom: 3rem;
+        color: $second-color-3;
+      }
+
+      
+      
+    }
+
+
+    &_btn{
+        
+    color: $second-color-3;
+    background-color: $second-color-1;
+    border: 0;
+    padding: 0.5rem 11.5rem;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    margin-left: 1rem;
+    transition: all 0.3s;
+
+    
+    };
+
+    &_btn:hover {
+        background-color: darken($second-color-1, 20%);
+        color: rgb(1, 1, 1);
+        transform: scale(1.05);
+      }
+      
+    &_btn:active {
+        transform: translateY(3px);
+      }
+
+    &_input{
+
+        margin-bottom: 2rem;
+        label{
+            color: $second-color-3
+         }
+        
+            
+        
+        input {
+          margin-bottom: 0.9rem;
+          border: none;
+          border-bottom: 1px solid;
+          margin-top: 0.3rem;
+          padding: 0.5rem 15rem 0.5rem 0;
+          outline: none;
+          background-color: $primary-backgroundColor;
+        }
+      
+        input:-webkit-autofill {
+          transition: background-color 5000s ease-in-out 0s;
+        }
+      
+        label {
+          display: block;
+        }
+
+    }
+}
+
+.laddaup{
+  background-color: $primary-backgroundColor;
+  height: 100%;
+  min-width: 980px;
+  position: relative;
+
+ label{
+  display: block;
+  color: $second-color-3
+ }
+ &_formItem1{
+  padding-left: 2%;
+ input{
+          margin-bottom: 0.9rem;
+          border: none;
+          border-bottom: 1px solid;
+          margin-top: 0.3rem;
+          padding: 0.5rem 12.5rem 0.5rem 0;
+          outline: none;
+          background-color: $second-color-2;
+         
+}
+input:-webkit-autofill {
+  transition: background-color 5000s ease-in-out 0s;  
+ }
+
+}
+
+&_formItem2{
+  padding-left: 2%;
+  input{
+    margin-bottom: 0.9rem;
+    border: none;
+    border-bottom: 1px solid;
+    margin-top: 0.3rem;
+    padding: 0.5rem 5rem 0.5rem 0;
+    outline: none;
+    background-color: $second-color-2;
+   
+}
+input:-webkit-autofill {
+transition: background-color 5000s ease-in-out 0s;  
+}
+
+}
+ &_form{
+  padding: 10% 0 0 30%;
+ }
+
+}
+
+.pdffiles{
+  padding-bottom: 5%;
+  
+  &_header{
+    display: flex;
+    //justify-content: space-between;
+    padding-bottom: 2%;
+
+    button{
+       background-color: $btn-color;
+       color: $box-color;
+       padding: 0 1.2rem;
+       border-radius: 10px;
+       border: 0;
+       font-size: .8rem;
+       margin-left: 55.5rem;
+    }
+
+    button:hover{
+      transform: scale(1.05);
+    }
+
+    p{
+      font-size: 1.1rem;
+      color:$second-color-3
+    }
+  }
+}
+
+

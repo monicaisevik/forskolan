@@ -1,0 +1,35 @@
+@import './variables.scss';
+
+.varverksamhet{
+    //min-height: 200vh;
+    background-color: $primary-backgroundColor;
+    //padding-top: 5%;
+    padding:5% 0 5% 13.5%;
+    font-weight: 300;
+    
+    h2{
+        margin-bottom: $title-buttom;
+        font-size: $title-fontSize;
+        
+    }
+    
+
+    &_image{
+     border-radius: 20px;
+     object-fit: cover;
+     margin: 2% 0;
+    }
+
+    p{
+        line-height: .5rem;
+        
+    }
+
+    &_p{
+        margin-bottom: -1.5%;
+    }
+    
+    
+    
+
+}

@@ -1,0 +1,78 @@
+@import './variables.scss';
+
+.vekansmatsedeln{
+    padding: 0 10%;
+    border-bottom: 1px solid;
+    width: 75%;
+    margin: auto;
+
+    
+
+    
+    &_header{
+        display: flex;
+        justify-content: space-between;
+        align-items:baseline;
+        cursor: pointer;
+
+         
+    }
+
+     h4{
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+        
+    }
+    
+
+    h5{
+        margin-bottom: .5rem;
+        font-size: .9rem;
+    }
+
+    h5:last-child{
+        margin-top: 3.7rem;
+        
+    }
+
+    p{
+        font-size: .9rem;
+    }
+
+    &_btn{
+        //background-color: #fff;
+        height: 4rem;
+        width: 15rem;
+        
+    
+    }
+
+    &_btn:hover{
+        background-color: #fff;
+    }
+    
+
+    
+
+    &_meny{
+        display: flex;
+        margin-bottom: 1rem;
+        
+    }
+
+    &_items{
+        margin-right: 2rem;
+        
+    }
+
+    &_detaljer{
+         p{
+            margin-bottom: .2rem;
+         };
+
+         p:last-child{
+            margin-top: .9rem;
+         }
+        
+    }
+}

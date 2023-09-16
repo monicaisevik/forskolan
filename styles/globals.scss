@@ -1,0 +1,21 @@
+@import './variables.scss';
+
+*{
+  margin:0;
+  padding:0
+}
+
+body{
+  box-sizing: border-box;
+  min-width: 1050px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  
+  
+}
+
+html{
+  height:100%;
+  background-color: $primary-backgroundColor;
+
+}

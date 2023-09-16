@@ -1,0 +1,23 @@
+@import './variables.scss';
+
+.omforskolan{
+    background-color: $second-color-2;
+    //min-height: 30vh;
+    display: flex;
+    align-items: center;
+    padding: 5% 0 5% 13.5% ;
+    h2{
+       margin-bottom: $title-buttom;
+       font-size: $title-fontSize;
+    }
+
+    p{
+        font-weight: 300;
+        line-height: .8rem;
+        
+    }
+
+    p:not(:last-child) {
+      margin-bottom: .7rem;
+    }
+}

@@ -1,0 +1,53 @@
+@import './variables.scss';
+
+.navbar{
+    &_image{
+        border-radius: 20px 20px 0 0;
+        margin-left: 2rem;
+        margin-bottom: .35rem;
+    }
+    &_list{
+        margin-top: -5px;
+        border-radius: 20px;
+ 
+        &_a,&_link{
+           text-decoration: none;
+           color: $second-color-2;
+        }
+
+        &_a:hover, &_link:hover{
+            color: $box-color;
+        }
+
+        
+
+        
+
+        h4{
+            font-size: 1.05rem;
+            
+        }
+
+        li{
+      height: 3rem;
+      width: 12.5rem;
+      background-color: $second-color-1; 
+      border-bottom: 1px solid black;
+      color: $second-color-2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      
+      
+           
+        }
+
+        h4:hover{
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+        
+
+    }
+}

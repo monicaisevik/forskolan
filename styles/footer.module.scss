@@ -1,0 +1,41 @@
+@import './variables.scss';
+
+.footer{
+    background-color: $footer-color;
+    //min-height: 20vh;
+    color: $second-color-2;
+    padding: 5% 0 2% 0;
+
+    i{
+        margin-right: 1rem;
+    }
+
+    &_info{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &_infoGap{
+       margin-bottom: 2%;
+    }
+
+    &_infoItem1, &_infoItem2, &_infoItem3, &_infoItem4{
+        display: flex;
+    }
+
+    
+
+    &_copyright{
+        display: flex;
+        justify-content: center;
+        font-size: .8rem;
+        
+        p:last-child{
+            margin-left: -1.15%;
+        }
+
+        p{
+            margin-right: .15%;
+        }
+    }
+}
